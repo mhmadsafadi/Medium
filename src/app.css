@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+/* font-family: 'Arimo', sans-serif; */
+
+:root {
+    --main-color: #FFC017;
+    --text-color: #191919;
+    --text-muted: #757575;
+}
+body{
+    font-family: 'Arimo', sans-serif;
+    height: 2000px;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: var(--text-color);
+    border-radius: 20px;
+    font-size: 14px;
+}
+.btn-dark:focus {
+    box-shadow: none;
+}
+.btn-success {
+    color: #fff;
+    background-color: #1a8917;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.btn-success:focus {
+    box-shadow: none;
+}
+.btn-outline-dark {
+    color: #212529;
+    border-color: var(--text-color);
+    border-radius: 20px;
+    background-color: #ffffffcc;
+}
+.btn-outline-dark:focus {
+    box-shadow: none;
+}

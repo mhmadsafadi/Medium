@@ -1,0 +1,63 @@
+.modal-backdrop {
+    background-color: #fff;
+}
+.modal-backdrop.show {
+    opacity: 0.9;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-content {
+    text-align: center;
+    border: 0;
+    box-shadow: 0 5px 20px 1px #999;
+    height: 650px;
+}
+.modal-title {
+    font-family: 'Playfair Display', serif;
+}
+.btn-sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-sign button{
+    width: 220px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #adadadcc;
+    background-color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.btn-sign button i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.modal-footer{
+    font-size: 14px;
+    color: var(--text-muted);
+    border-top: 0;
+}
+.modal-link{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.modal-link-2{
+    color: green;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.modal-header .btn-close {
+    margin: 0.5rem 2.5rem 0.5rem auto;
+}
+.modal-header .btn-close:focus {
+    box-shadow: none;
+}

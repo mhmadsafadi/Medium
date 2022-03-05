@@ -1,0 +1,47 @@
+.last-section{
+    margin-top: 40px;
+}
+
+.sticky{
+    position: sticky;
+    top: 112px;
+}
+
+.last-section .row {
+    --bs-gutter-x: 4rem;
+    --bs-gutter-y: 0.5rem;
+}
+.last-section .tags button{
+    font-size: 13px;
+    padding: 8px 10px;
+    border: 1px solid rgba(200, 200, 200, 5);
+    background-color: transparent;
+    margin: 5px 10px 5px 0;
+    color: var(--text-muted);
+}
+
+.last-section hr{
+    margin-top: 30px;
+    color: var(--text-muted);
+}
+.last-section .nav-link {
+    padding: 0.2rem 0.8rem;
+    font-size: 15px;
+    color: var(--text-muted);
+}
+.last-section .card {
+    margin-bottom: 25px;
+    border: 0;
+}
+.last-section .card .name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.last-section .card .descr h4{
+    font-weight: 800;
+    margin: 10px 0;
+}
+.last-section .card .descr p,.last-section .card .descr span{
+    color: var(--text-muted);
+}

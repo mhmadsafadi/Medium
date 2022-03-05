@@ -1,0 +1,27 @@
+.navbar {
+    background-color: var(--main-color);
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: 1px solid #000;
+}
+.bg-navbar {
+    background-color: #fff;
+    transition: all .5s ease-in-out;
+}
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-color) !important;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+.navbar .navbar-brand i{
+    font-size: 43px;
+}
+.navbar .navbar-nav .nav-link {
+    color: var(--text-color) !important;
+    margin-right: 10px;
+}
